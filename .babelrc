@@ -1,9 +1,23 @@
+// {
+//   "presets": [
+//     ["env", {
+//       "modules": false
+//     }],
+//     "stage-0",
+//     "react"
+//   ]
+// }
+
+// module.exports = 
 {
   "presets": [
-    ["env", {
-      "modules": false
-    }],
-    "stage-0",
-    "react"
+    ["@babel/preset-env", {"loose": true}],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-syntax-dynamic-import",
+    "@babel/plugin-proposal-export-default-from",
+    "@babel/plugin-proposal-function-bind"
   ]
 }
