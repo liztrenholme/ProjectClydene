@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-import css from './button.css'
+import css from './button.css';
 
 export default class Button extends Component {
   static propTypes = {
@@ -12,12 +12,12 @@ export default class Button extends Component {
   render() {
     const {
       text, theme
-    } = this.props
+    } = this.props;
 
     return (
       <div className={theme ? css.theme : css.buttonContainer}>
         {text}
       </div>
-    )
+    );
   }
 }

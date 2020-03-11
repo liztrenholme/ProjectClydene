@@ -23,6 +23,16 @@
 // import Button as Button from './components/Button'
 // import Button from './components/Button'
 // import Input from './components/Input'
+const defaultAwesomeFunction = (name) => {
+  const returnStr = `I am the Default Awesome Function, fellow comrade! - ${name}`;
+  return returnStr;
+};
 
-export { default as Button } from './components/Button'
-export { default as Input } from './components/Input'
+const awesomeFunction = () => 'I am just an Awesome Function';
+
+export default defaultAwesomeFunction;
+
+export { awesomeFunction };
+
+export { default as Button } from './components/Button';
+export { default as Input } from './components/Input';
