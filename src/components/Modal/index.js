@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import css from './input.css';
+import css from './modal.css';
 
 export default class Modal extends Component {
   static propTypes = {
@@ -18,6 +18,6 @@ export default class Modal extends Component {
       <div className={theme ? css.theme : css.inputContainer}>
         <input placeholder={placeholder} />
       </div>
-    );
+    )
   }
 }

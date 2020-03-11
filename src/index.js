@@ -24,7 +24,7 @@
 // import Button from './components/Button'
 // import Input from './components/Input'
 const defaultAwesomeFunction = (name) => {
-  const returnStr = `I am the Default Awesome Function, fellow comrade! - ${name}`;
+  const returnStr = `I am the Default Awesome Function, fellow comrade! - ${name}`
   return returnStr;
 };
 
